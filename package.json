@@ -1,6 +1,6 @@
 {
   "name": "node-stripe-membership-saas",
-  "description": "This project is a boilerplate express app for creating a membership/subscription site with Stripe.",
+  "description": "This project is in a express.js for creating a membership/subscription site with Stripe.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -13,15 +13,6 @@
     "saas",
     "plan"
   ],
-  "author": {
-    "name": "Eddy Hernandez",
-    "email": "edward.d.hernandez@gmail.com",
-    "url": "http://eddywashere.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eddywashere/node-stripe-membership-saas/issues"
-  },
   "scripts": {
     "start": "node server"
   },

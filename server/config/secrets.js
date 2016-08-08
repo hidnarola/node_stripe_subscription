@@ -2,7 +2,7 @@ module.exports = {
 
   db: process.env.MONGODB || process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost:27017/stripe-membership',
 
-  sessionSecret: process.env.SESSION_SECRET || 'change this',
+  sessionSecret: process.env.SESSION_SECRET || 'narola21',
 
   mailgun: {
     user: process.env.MAILGUN_USER || '',
@@ -10,26 +10,26 @@ module.exports = {
   },
 
   stripeOptions: {
-    apiKey: process.env.STRIPE_KEY || '',
-    stripePubKey: process.env.STRIPE_PUB_KEY || '',
+    apiKey: process.env.STRIPE_KEY || 'sk_test_ULFCSlBLcOTkNloQV8WvuWSP',
+    stripePubKey: process.env.STRIPE_PUB_KEY || 'pk_test_rIwyAO2KrzkgULDSxd9TQRsl',
     defaultPlan: 'free',
-    plans: ['free', 'silver', 'gold', 'platinum'],
+    plans: ['free', 'premium', 'developer', 'business'],
     planData: {
       'free': {
         name: 'Free',
         price: 0
       },
-      'silver': {
-        name: 'Silver',
-        price: 9
+      'premium': {
+        name: 'Premium',
+        price: 69
       },
-      'gold': {
-        name: 'Gold',
-        price: 19
+      'developer': {
+        name: 'Developer',
+        price: 89
       },
-      'platinum': {
-        name: 'Platinum',
-        price: 29
+      'business': {
+        name: 'Business',
+        price: 129
       }
     }
   },

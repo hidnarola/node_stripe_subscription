@@ -16,27 +16,28 @@ a {
 
 /* custom navbar */
 .navbar-default {
-  background-color: #9b59b6;
-  border-color: #8e44ad;
+  background-color: #009688;
+  border-color: #009688;
+  color: #fff;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  color: #fff;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #ecdbff;
+  color: #fff;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #ecdbff;
+  color: #304047;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ecdbff;
-  background-color: #8e44ad;
+  color: #fff;
+  background-color: #304047;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #ecdbff;
@@ -77,10 +78,17 @@ a {
     background-color: #8e44ad;
   }
 }
-
+.panel-default > .panel-heading{
+  background-color: #009688;
+  color: #fff;
+  border-color: #009688;
+}
+.panel-default > .panel-heading h3{
+  margin: 0;
+}
 .btn-primary {
-  background-color: #9b59b6;
-  border-color: #9b59b6;
+  background-color: #009688;
+  border-color: #009688;
 }
 .btn-primary:hover,
 .btn-primary:focus,
